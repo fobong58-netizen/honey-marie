@@ -4,12 +4,15 @@ const CURRENCY = "₦";
 // To use a real photo on a product, add:  img: "images/my-photo.jpg"
 const PRODUCTS = {
   bags: [
-    { id: "b1", name: "Honey Tote",       price: 45000, emoji: "👜", tint: "#ffd3e3" },
-    { id: "b2", name: "Gold Chain Mini",  price: 38000, emoji: "👜", tint: "#f9e7b8" },
-    { id: "b3", name: "Pearl Clutch",     price: 28000, emoji: "👛", tint: "#ffe3ee" },
-    { id: "b4", name: "Queen Satchel",    price: 62000, emoji: "👜", tint: "#f7b6d0" },
-    { id: "b5", name: "Blush Crossbody",  price: 33000, emoji: "👜", tint: "#ffd8e6" },
-    { id: "b6", name: "Weekend Shopper",  price: 52000, emoji: "🛍️", tint: "#f9e7b8" }
+    { id: "b1", name: "Crescent Hobo Bag",    price: 45000, emoji: "👜", tint: "#ffd3e3", img: "images/bag1.png" },
+    { id: "b2", name: "Knot Handle Satchel",  price: 38000, emoji: "👜", tint: "#f9e7b8", img: "images/bag2.png" },
+    { id: "b3", name: "Straw Charm Tote",     price: 28000, emoji: "👜", tint: "#ffe3ee", img: "images/bag3.png" },
+    { id: "b4", name: "Gold Capsule Evening", price: 62000, emoji: "👛", tint: "#f7b6d0", img: "images/bag4.png" },
+    { id: "b5", name: "Knot Handle Satchel II", price: 33000, emoji: "👜", tint: "#ffd8e6", img: "images/bag5.png" },
+    { id: "b6", name: "Woven Knot Clutch",    price: 52000, emoji: "👜", tint: "#f9e7b8", img: "images/bag6.png" },
+    { id: "b7", name: "Diamond Check Tote",   price: 40000, emoji: "👜", tint: "#ffe3ee", img: "images/bag7.png" },
+    { id: "b8", name: "Black Dome Satchel",   price: 48000, emoji: "👜", tint: "#ffd3e3", img: "images/bag8.png" },
+    { id: "b9", name: "Black Flap Satchel",   price: 55000, emoji: "👜", tint: "#f7b6d0", img: "images/bag9.png" }
   ],
   slippers: [
     { id: "s1", name: "Pearl Pillow Slides",  price: 12000, emoji: "🩴", tint: "#ffe3ee" },
